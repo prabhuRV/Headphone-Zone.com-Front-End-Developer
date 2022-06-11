@@ -8,7 +8,6 @@ import {
   Stack,
   Collapse,
   Icon,
-  Link,
   Popover,
   PopoverTrigger,
   PopoverContent,
@@ -16,6 +15,7 @@ import {
   useBreakpointValue,
   useDisclosure,
   Image,
+  Link,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -23,6 +23,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+import { Link as ReachLink } from "@reach/router"
 
 import { NAV_ITEMS } from "./NavItems";
 import { CartLength } from "./CartLength";
@@ -62,17 +63,21 @@ export const Navbar = () => {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Link href="#" >
-            <Image
-              h="60px"
-              
-              ml="-0.5"
-              src="https://assets.rha-audio.com/nzssx/c/Headphone_zone_logo_3-small.png"
-            />
+            <Link as={ReachLink} to='/home'>
+              <Image
+                h="60px"
+                ml="-0.5"
+                src="https://assets.rha-audio.com/nzssx/c/Headphone_zone_logo_3-small.png"
+              />
             </Link>
           </Text>
 
-          <Flex display={{ base: "none", md: "flex" }} m="auto" mt="20px"      fontWeight={500}>
+          <Flex
+            display={{ base: "none", md: "flex" }}
+            m="auto"
+            mt="20px"
+            fontWeight={500}
+          >
             <DesktopNav />
           </Flex>
         </Flex>
@@ -84,15 +89,13 @@ export const Navbar = () => {
           spacing={1}
         >
           <Button
-           
             fontSize={"sm"}
             fontWeight={500}
-           
             color={"black"}
             bg={"#f9f9f9"}
             href={"#"}
           >
-           Search
+            Search
           </Button>
           <Button
             display={{ base: "none", md: "inline-flex" }}
@@ -101,31 +104,25 @@ export const Navbar = () => {
             color={"black"}
             bg={"#f9f9f9"}
             href={"#"}
-          
           >
-          Log In
+            Log In
           </Button>
-         
-          
-          
         </Stack>
-        <Stack flex={{ base: 1, md: 0 }}
-          justify={"flex-end"}
-          direction={"row"}
-          >
-        <Text
+        <Stack flex={{ base: 1, md: 0 }} justify={"flex-end"} direction={"row"}>
+          <Text
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
             fontWeight={600}
             color={"black"}
             bg={"#f9f9f9"}
             href={"#"}
-          ml="1" mt="0.5"
+            ml="1"
+            mt="0.5"
           >
-          Cart
+            Cart
           </Text>
           <CartLength />
-          </Stack>
+        </Stack>
       </Flex>
 
       <Collapse in={isOpen} animateOpacity>
@@ -149,11 +146,11 @@ const MobileNav = () => {
   );
 };
 
-const MobileNavItem = ({ label}) => {
+const MobileNavItem = ({ label }) => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Stack spacing={4} onClick={ onToggle}>
+    <Stack spacing={4} onClick={onToggle}>
       <Flex
         py={2}
         as={Link}
@@ -170,16 +167,16 @@ const MobileNavItem = ({ label}) => {
         >
           {label}
         </Text>
-        
       </Flex>
 
-      <Collapse in={isOpen} animateOpacity style={{ marginTop: "0!important" }}>
-      
-      </Collapse>
+      <Collapse
+        in={isOpen}
+        animateOpacity
+        style={{ marginTop: "0!important" }}
+      ></Collapse>
     </Stack>
   );
 };
-
 
 console.log(NAV_ITEMS);
 const DesktopNav = () => {
@@ -195,9 +192,8 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Link
                 p={3}
-                href={navItem.href ?? "#"}
+                to="/#"
                 fontSize={"sm"}
-                
                 color={linkColor}
                 _hover={{
                   textDecoration: "none",
@@ -217,7 +213,7 @@ const DesktopNav = () => {
                 rounded={"xl"}
                 minW={"sm"}
               >
-                <Stack >
+                <Stack>
                   {navItem.children.map((child) => (
                     <DesktopSubNav key={child.lebel} {...child} />
                   ))}
@@ -235,7 +231,7 @@ const DesktopSubNav = ({ lebel }) => {
   //   const { lebel } = props;
   return (
     <Link
-      href={""}
+      to="/#"
       role={"group"}
       display={"block"}
       p={1}
@@ -243,17 +239,15 @@ const DesktopSubNav = ({ lebel }) => {
       _hover={{ bg: useColorModeValue("white.500", "gray.900") }}
       fontWeight={400}
     >
-      <Stack direction={"row"} align={"center"} >
-     
-          <Text 
-
-            transition={"all .3s ease"}
-            _groupHover={{ color: "gray.400" }}
-          mb="-2" ml="3"
-          >
-            {lebel}
-          </Text>
-       
+      <Stack direction={"row"} align={"center"}>
+        <Text
+          transition={"all .3s ease"}
+          _groupHover={{ color: "gray.400" }}
+          mb="-2"
+          ml="3"
+        >
+          {lebel}
+        </Text>
       </Stack>
     </Link>
   );
