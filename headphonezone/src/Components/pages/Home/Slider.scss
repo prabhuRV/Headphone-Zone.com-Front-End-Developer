@@ -1,0 +1,141 @@
+.slider {
+    width: 100%;
+    height: 85vh;
+    position:absolute;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translateX(50%);
+    transition: all 0.1s ease;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .slide img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .slide img {
+    // width: 100%;
+    height: 100%;
+  }
+  
+  .current {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .content {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    opacity: 0;
+    width: 0;
+    color: #fff;
+    // padding: 3rem;
+    // background: rgb(246, 242, 242);
+    animation: slide-up 1s ease 0.5s;
+    // animation-delay: 1s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      visibility: visible;
+      top: 23rem;
+    }
+    100% {
+      visibility: visible;
+      top: 17rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .content {
+      width: 0%;
+    }
+  }
+  
+  .content > * {
+    color: #fff;
+    // margin-bottom: 1rem;
+  }
+  
+  .current .content {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease;
+  }
+  
+  .arrow {
+    // border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+  }
+  // .arrow:hover {
+  //   background-color: #fff;
+  //   color: #777;
+  // }
+  
+  .next {
+    top: 45%;
+    right: 1.5rem;
+  }
+  .prev {
+    top: 45%;
+    left: 1.5rem;
+  }
+  .distance{
+    height: 320px;
+  }
+ 
+
+
+  .reffetText{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.4px;
+    // background-color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: #1F1F1F;
+  }
+  .feferImage{
+    height: 275.85px;
+    cursor: pointer;
+    text-align: center;
+    background-position: 0% 0%;
+    box-sizing:  border-box;
+    background-color: white;
+  }
+
+  .PRIMING{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.4px;
+    // background-color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: #1F1F1F;
+    margin-top: 20px;
+    text-decoration: none solid rgb(31, 31, 31);
+    margin-bottom: 20px;
+
+  }
