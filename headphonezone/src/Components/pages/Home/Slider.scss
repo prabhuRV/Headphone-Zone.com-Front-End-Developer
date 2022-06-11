@@ -1,7 +1,7 @@
 .slider {
     width: 100%;
     height: 85vh;
-    position:absolute;
+    position:relative;
     overflow: hidden;
   }
   
@@ -139,3 +139,204 @@
     margin-bottom: 20px;
 
   }
+
+  .textSlide{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.4px;
+    // background-color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: #1F1F1F;
+    margin-top: 20px;
+    text-decoration: none solid rgb(31, 31, 31);
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  // checkeup*****************************************
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  
+  
+  .swiper-button-prev{
+    height: 10px;
+    width: 10px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  
+  .myimage{
+    width: 100%;
+    height: 308.219px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+  
+  }
+  
+  
+  // Two more *****
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  // videSlide *****
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: block;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+    cursor: pointer;
+  }
+  .swiper-slide video:hover {
+  
+    max-zoom: 100px;
+    
+  }
+  .swiper-button-prev{
+    height: 10px;
+    width: 10px;
+  }
+  
+  .TwoImage{
+    display: flex;
+    justify-content: center;
+  }
+  .TwoImage img{
+    height: 301.625px;
+    // width: 536.5px;
+    padding: 0 48px 0 48px;
+  }
+  // threeImage***
+  .threeImage{
+    display: flex;
+    justify-content: center;
+    // padding-left: 8px;
+  }
+  
+  .threeImage img{
+    height:325px ;
+    // width: 390px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .hotDeals{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.4px;
+    text-align: center;
+    // margin: auto;
+    // padding: auto;
+    color: #1F1F1F;
+    // margin-top: 20px;
+    text-decoration: none solid rgb(31, 31, 31);
+  }
+  
+  
+  .loadMore{
+  
+    
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500px;
+    text-decoration: none;
+    text-align: start;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 100px;
+  
+  }
+  

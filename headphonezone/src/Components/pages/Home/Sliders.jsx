@@ -57,11 +57,7 @@ export const Sliders = () => {
                 {index === currentSlide && (
                   <div>
                     <img src={slide.image} alt="slide" className="image" />
-                    {/* <div className="content"> */}
-                    {/* <p>{slide.heading}</p>
-                      <p>{slide.desc}</p> */}
-  
-                    {/* </div> */}
+                  
                   </div>
                 )}
               </div>
