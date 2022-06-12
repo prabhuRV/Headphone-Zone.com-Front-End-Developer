@@ -23,7 +23,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import { Link as ReachLink } from "@reach/router"
+import { Link as ReachLink } from "react-router-dom"
 
 import { NAV_ITEMS } from "./NavItems";
 import { CartLength } from "./CartLength";
@@ -191,8 +191,8 @@ const DesktopNav = () => {
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
               <Link
-                p={3}
-                to="/#"
+                p={3} as={ReachLink}
+                to="/prabhu"
                 fontSize={"sm"}
                 color={linkColor}
                 _hover={{
@@ -230,8 +230,8 @@ const DesktopNav = () => {
 const DesktopSubNav = ({ lebel }) => {
   //   const { lebel } = props;
   return (
-    <Link
-      to="/#"
+    <Link  as={ReachLink}
+      to="/prabhi"
       role={"group"}
       display={"block"}
       p={1}

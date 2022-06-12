@@ -251,3 +251,48 @@ export const NewsOuerLine=[
     Name:"WE SUPPORT SMALL, INDEPENDENT AND LOCAL BUSINESSES AND COMMUNITIES"
   }
 ]
+
+
+export const everyDayAtZone=[
+  {
+    id:1,
+    image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/286488430_555405362964611_2793881737802190858_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=bM-Q0duQ23kAX8zfqh4&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9mcQZ5RiCb4VPeYCjo6w6b3dfGmrnnE1uEvkA6cwpLTQ&oe=62AA531C"
+  },
+  {
+    id:2,
+    image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/285210134_532588138413864_8977195827901658595_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=PrUXSbA4XqUAX8n6VYr&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9AeMhakOZrn7iwNlAfhDJG5k4xQAkU-i56mW4OdS3mLg&oe=62A98555"
+  },
+  {
+    id:3,
+    image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/281415681_2562740617195320_2415806610902096525_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=ALC7LxHudnUAX9As9a5&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8yVHNVU5b9UdbhhvYt1X9veDZEZCj33xgPnpz7NDt5pQ&oe=62AB489C"
+  },
+  {
+    id:4,
+    image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/279957192_986125098713138_1315604255357174107_n.webp?stp=dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=141epH9AO9sAX8HINYY&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT84bQv61iHsVRhqHXZxye7JC90jQrX6xdbIWdlIHFIaUg&oe=62AA31DC"
+  },
+]
+
+
+
+export const everyDayAtZone2=[
+{
+  id:1,
+  image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/284638731_2087483601424041_688519866159127679_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=wbhp0kLaZs0AX9XhUcL&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-AEQ5VM6ctRa4jhM2OnyOaghNeiDJ3QW5AAa_teG1Wbw&oe=62AAACCB"
+
+},
+{
+  id:2,
+  image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/284322132_295917145970339_8996905122198278039_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=2dqiIfp1gsIAX-mQplo&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-ipDv3G2ZNyinCignchaZn71KVK0OBQg1v7VBomn_paQ&oe=62AADB19"
+
+},
+{
+  id:3,
+  image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/279420112_302986901986627_1336571236060715247_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=umRQvHHDMYMAX9KC5ya&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9JM6ZXVFMYos2FYnzYUV1YnVJwqQ_Jie10fhpLieiBBA&oe=62A9E271"
+
+},
+{
+  id:4,
+  image:"https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/279251005_1181251259276903_949778103207266733_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=UTNgRHviIdUAX9aYlet&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_29r_CG1wwL_c7fCuDlYl5SNSewANFzE43f7xDJm_9mg&oe=62AB1405"
+
+}
+]

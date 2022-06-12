@@ -15,6 +15,7 @@ import {
   Heading,
   HStack,
   Image,
+  Img,
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
@@ -23,9 +24,9 @@ import { HeadphoeIcons, NewLanch } from "./SliderData";
 export default function ProductsSliders() {
   return (
     <>
-      <Box p="10">
-        <Box m={"auto"} textAlign="center">
-          <Heading>CHART TOPPING HEADPHONES</Heading>
+      <Box mt="-20" pos={"relative"} bg="white">
+        <Box p="30" m={"auto"}  textAlign="center">
+          <Heading color={"gray"}>CHART TOPPING HEADPHONES</Heading>
         </Box>
         <Swiper
           slidesPerView={3}
@@ -37,13 +38,17 @@ export default function ProductsSliders() {
         >
           {HeadphoeIcons.map((item) => {
             return (
-              <Box key={item.heading} display="block">
-                <HStack>
+              <Box key={item.heading} bg="pink.500"   display="block">
+                <HStack   p='4'>
                   <Box display="block">
-                    <SwiperSlide>
-                      <img src={item.image} alt="" />
-                      <h1>PRice</h1>
-                      <p>jdghjdhg</p>{" "}
+                    <SwiperSlide  >
+                      <Box boxShadow='md' p='6' rounded='md' bg='white' mb={5} >
+                      <Image textAlign="center" h={"300px"}  src={item.image} alt="" />
+                      <Box textAlign={"center"}>
+                      <Heading>PRice</Heading>
+                      <Text>jdghjdhg</Text>
+                      </Box>
+                      </Box>
                     </SwiperSlide>
                   </Box>
                 </HStack>

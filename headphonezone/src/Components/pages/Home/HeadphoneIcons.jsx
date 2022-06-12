@@ -22,7 +22,6 @@ export const HeadphoneIcons = () => {
         m="auto"
         gap="30px"
       >
-        
         {HeadphoeIcons.map((item) => {
           return (
             <Box key={item.heading}>
@@ -52,14 +51,13 @@ export const HeadphoneIcons = () => {
       <Box>
         <iframe
           width="100%"
-          height="500px"
+          height="600px"
           title=""
-          src="https://player.vimeo.com/video/681364200?autoplay=1&amp;muted=1&amp;transparent=0&amp;responsive=1&amp;portrait=0&amp;title=0&amp;byline=0&amp;color=444444"
+          src="https://player.vimeo.com/video/681364200?autoplay=1&amp;autopause=1&amp;background=1&amp;loop=1&amp;muted=1&amp;transparent=0&amp;responsive=1&amp;portrait=0&amp;title=0&amp;byline=0&amp;color=444444"
           allow="autoplay; encrypted-media;"
           allowfullscreen="allowfullscreen"
         ></iframe>
       </Box>
-      
     </Box>
   );
 };
