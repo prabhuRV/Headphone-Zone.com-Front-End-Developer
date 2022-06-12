@@ -14,6 +14,7 @@
     "framer-motion": "^6.3.11",
     "node-sass": "^7.0.1",
     "react": "^18.1.0",
+    "react-app-store-badge": "^1.0.2",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
@@ -22,6 +23,7 @@
     "redux-thunk": "^2.4.1",
     "sass": "^1.52.3",
     "scss": "^0.2.4",
+    "store-badge": "^1.3.0",
     "swiper": "^8.2.3",
     "web-vitals": "^2.1.4"
   },

@@ -10,7 +10,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
-import { everyDayAtZone, NewsOuerLine } from "./SliderData";
+import { everyDayAtZone, everyDayAtZone2, NewsOuerLine } from "./SliderData";
 export const OuerLine = () => {
   return (
     <Box>
@@ -83,25 +83,42 @@ export const OuerLine = () => {
       </Box>
       <HStack spacing="24px">
         <Box
+        p="4"
           display={"flex"}
           flexDirection={"row"}
           flexWrap="wrap"
           gap="24px"
-          bg="yellow.200"
+      
+         
+         
         >
           {everyDayAtZone.map((item) => {
+            return (
+              <Box key={item.id}  ml={"6"}>
+                <Image w="200px" h="200px" src={item.image} />
+              </Box>
+            );
+          })}
+        </Box>
+        <Box w="50%" >
+          <Image w={"100%"} src="https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/283698315_534936578225552_3382599809799712189_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=gtgn3gyyKQUAX_IKzNU&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8sCn7ROxkui3M5_tm6L4Uu--yTl1jvDyHIWFdFtGZXcA&oe=62AAEB3B" />
+        </Box>
+        <Box
+        p="4"
+          display={"flex"}
+          flexDirection={"row"}
+          flexWrap="wrap"
+          gap="24px"
+       
+          ml={"6"}
+        >
+          {everyDayAtZone2.map((item) => {
             return (
               <Box key={item.id}>
                 <Image w="200px" h="200px" src={item.image} />
               </Box>
             );
           })}
-        </Box>
-        <Box w="40%" >
-          <Image src="https://scontent-ams4-1.cdninstagram.com/v/t51.29350-15/283698315_534936578225552_3382599809799712189_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=gtgn3gyyKQUAX_IKzNU&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8sCn7ROxkui3M5_tm6L4Uu--yTl1jvDyHIWFdFtGZXcA&oe=62AAEB3B" />
-        </Box>
-        <Box w="30%" h="300px" bg="pink.100">
-          3
         </Box>
       </HStack>
     </Box>
