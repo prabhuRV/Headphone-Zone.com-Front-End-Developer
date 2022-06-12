@@ -4,23 +4,23 @@ export const NAV_ITEMS = [
     children: [
       {
         lebel: "Earphones",
-        href: "#",
+        href: "/Earphones",
       },
       {
         lebel: "Headphones",
-        href: "#",
+        href: "/Headphones",
       },
       {
         lebel: "Protable Amp/DACs",
-        href: "#",
+        href: "/ProtableAmp",
       },
       {
         lebel: "Desktop Amp/DACs",
-        href: "#",
+        href: "/DesktopAmp",
       },
       {
         lebel: "Hi Res-Players",
-        href: "#",
+        href: "/HiRes",
       },
     ],
   },
@@ -29,32 +29,32 @@ export const NAV_ITEMS = [
     children: [
       {
         lebel: "1custom",
-        href: "#",
+        href: "/1custom",
       },
       {
         lebel: "BLON",
-        href: "#",
+        href: "/BLON",
       },
       {
         lebel: "FiiO",
-        href: "#",
+        href: "/FiiO",
       },
       {
         lebel: "Headphone Zone",
-        href: "#",
+        href: "/Headphone",
       },
       {
         lebel: "sony",
-        href: "#",
+        href: "/sony",
       },
 
       {
         lebel: "monoprice",
-        href: "#",
+        href: "/monoprice",
       },
       {
         lebel: "KZ Acoustics",
-        href: "#",
+        href: "/KZAcoustics",
       },
     ],
   },
@@ -63,32 +63,32 @@ export const NAV_ITEMS = [
     children: [
       {
         lebel: "Best Headphones Under Rs 1,000",
-        href: "#",
+        href: "/Under1000",
       },
       {
         lebel: "Best Headphones Under Rs 2,000",
-        href: "#",
+        href: "/Under2000",
       },
       {
         lebel: "Best Headphones Under Rs 3,000",
-        href: "#",
+        href: "/Under3000",
       },
       {
         lebel: "Best Headphones Under Rs 5,000",
-        href: "#",
+        href: "/Under5000",
       },
       {
         lebel: "Best Headphones Under 10,000",
-        href: "#",
+        href: "/Under10000",
       },
 
       {
         lebel: "Best Headphones Under Rs 20,000",
-        href: "#",
+        href: "/Under20000",
       },
       {
         lebel: "Best Headphones Under Rs 30,000",
-        href: "#",
+        href: "/Under30000",
       },
     ],
   },
@@ -97,35 +97,38 @@ export const NAV_ITEMS = [
     children: [
       {
         lebel: "Unboxed",
-        href: "#",
+        href: "/Unboxed",
       },
       {
         lebel: "Pre-Owned",
-        href: "#",
+        href: "/Pre",
       },
       {
         lebel: "Clearnce",
-        href: "#",
+        href: "/Clearnce",
       },
       {
         lebel: "Demo Unit",
-        href: "#",
+        href: "/Demo",
       },
       {
         lebel: "Deals of the Month",
-        href: "#",
+        href: "/#",
       },
 
     
     ],
   },
   {
-    label: "HEADPHONE FINDER",  
+    label: "HEADPHONE FINDER", 
+    href: "/HeaphoneFinder", 
   },
   {
     label: "Events",  
+    href: "/Events",
   },
   {
     label: "Help Center",  
+    href:"h/elp"
   },
 ];

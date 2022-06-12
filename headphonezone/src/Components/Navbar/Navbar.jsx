@@ -63,7 +63,7 @@ export const Navbar = () => {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Link as={ReachLink} to='/home'>
+            <Link as={ReachLink} to='/'>
               <Image
                 h="60px"
                 ml="-0.5"
@@ -192,7 +192,7 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Link
                 p={3} as={ReachLink}
-                to="/prabhu"
+                to=""
                 fontSize={"sm"}
                 color={linkColor}
                 _hover={{
@@ -227,11 +227,11 @@ const DesktopNav = () => {
   );
 };
 
-const DesktopSubNav = ({ lebel }) => {
+const DesktopSubNav = ({ lebel ,href}) => {
   //   const { lebel } = props;
   return (
     <Link  as={ReachLink}
-      to="/prabhi"
+      to={href}
       role={"group"}
       display={"block"}
       p={1}
