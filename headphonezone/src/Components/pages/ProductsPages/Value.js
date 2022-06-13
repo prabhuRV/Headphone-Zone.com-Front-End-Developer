@@ -65,3 +65,42 @@ export const fliters=[
     }
     
 ]
+
+export const sortBy=[
+    {
+        id:1,
+        image:"https://cdn.shopify.com/s/files/1/0153/8863/files/iems-under-1000_200x.png?v=1649917945",
+        sortin:1000
+    },
+    {
+        id:2,
+        sortin:2000,
+        image:"https://cdn.shopify.com/s/files/1/0153/8863/files/iems-under-2000_200x.png?v=1649917945"
+    }
+    ,
+    {
+        id:3,
+        sortin:3000,
+        image:"https://cdn.shopify.com/s/files/1/0153/8863/files/iems-under-3000_200x.png?v=1649917945"
+    },
+    {
+        id:4,
+        sortin:5000,
+        image:"https://cdn.shopify.com/s/files/1/0153/8863/files/iems-under-5000_200x.png?v=1649917945"
+    },
+    {
+        id:5,
+        sortin:10000,
+        image:"https://cdn.shopify.com/s/files/1/0153/8863/files/iems-under-10000_200x.png?v=1649917945"
+    },
+    {
+        id:6,
+        sortin:20000,
+        image:"https://cdn.shopify.com/s/files/1/0153/8863/files/iems-under-10000_200x.png?v=1649917945"
+    },
+    {
+        id:7,
+        sortin:30000,
+        image:"https://cdn.shopify.com/s/files/1/0153/8863/files/IEMS-UNDER-30000-1_200x.png?v=1652084604"
+    }
+]

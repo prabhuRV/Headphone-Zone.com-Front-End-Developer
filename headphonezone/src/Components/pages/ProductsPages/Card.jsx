@@ -57,6 +57,7 @@ function Card(props) {
         position="relative"
       >
         <Image
+        ml="6"
           boxSize="250px"
           src={image}
           alt={`Picture of ${product_title}`}
@@ -84,7 +85,7 @@ function Card(props) {
             </Box>
             <Box textDecoration="line-through" color={"gray"}>
               ₹.
-              {final_price / 100}
+              {Math.floor((final_price)/100*1.4)}
             </Box>
           </Flex>
         </Box>

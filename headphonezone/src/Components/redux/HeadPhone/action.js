@@ -30,7 +30,7 @@ export const getData=(payload)=>
         dispatch(getDataRequest())
 
        return axios({
-            url: "http://localhost:8080/Earphone",
+            url: "http://localhost:8080/HeadPhone",
             method: "get",
             params:
             {

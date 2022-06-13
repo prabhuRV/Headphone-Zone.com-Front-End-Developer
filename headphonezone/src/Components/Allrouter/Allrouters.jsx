@@ -3,7 +3,9 @@ import { Navbar } from '../Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from '../pages/Home/Home'
 import Footer from '../Footer/Footer'
-import { EarPhonePage } from '../pages/ProductsPages/EarPhonePage'
+import { EarPhonePage } from '../pages/ProductsPages/EarPhones/EarPhonePage'
+import { HeadPhonePage } from '../pages/ProductsPages/Hradphone/Headphone'
+
 export const Allrouters = () => {
   return (
     <div>
@@ -12,6 +14,7 @@ export const Allrouters = () => {
           
   <Route path="/" element={<Home />} />
   <Route path="/Earphones" element={<EarPhonePage />} />
+  <Route path="/Headphones" element={<HeadPhonePage />} />
   </Routes>
   <Footer />
     </div>

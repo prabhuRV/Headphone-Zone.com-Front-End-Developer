@@ -6,7 +6,7 @@ const intialState={
     isError:""
 }
 
-export const ProductsReduser=(state=intialState,action)=>
+export const HeadReduser=(state=intialState,action)=>
 {
 const {type,payload} =action 
 switch(type)
