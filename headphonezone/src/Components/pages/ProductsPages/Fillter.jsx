@@ -20,11 +20,12 @@ import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useSearchParams } from "react-router-dom";
 import { getData } from "../../redux/Products/action";
+import { fliters } from "./Value";
 
 export const Fliters = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [catgoryValue, setCatgoryValue] = useState(
-    searchParams.getAll("category") || []
+    searchParams.getAll("vendor") || []
   );
   const dispacth = useDispatch();
 
@@ -35,12 +36,12 @@ export const Fliters = () => {
 
   useEffect(() => {
     setSearchParams(
-      { category: catgoryValue },
+      { vendor: catgoryValue },
       { price: sortByPrice },
       { replace: true }
     );
     let params = {
-      category: searchParams.getAll("category"),
+      vender: searchParams.getAll("vendor"),
     };
 
     dispacth(getData(params));
@@ -68,11 +69,20 @@ export const Fliters = () => {
                 onChange={flitervalues}
               >
                 <VStack direction={["column", "row"]} alignItems={"baseline"}>
-                  <Checkbox value="men's clothing">Men's Clothing</Checkbox>
-                  <Checkbox value="women's clothing">Women's Clothing</Checkbox>
-                  <Checkbox value="bags">Bags</Checkbox>
-                  <Checkbox value="jewelery">Jewelery</Checkbox>
-                  <Checkbox value="electronics">Electronics</Checkbox>
+                  {
+                    fliters.map((item)=>
+                    {
+                      return ( 
+                      <Box key={item.id}>
+                        
+                        
+                        <Checkbox value={item.name}>{item.name}</Checkbox>
+                        </Box>
+                      )
+                    })
+                  }
+                  
+                  
                 </VStack>
               </CheckboxGroup>
             </AccordionPanel>

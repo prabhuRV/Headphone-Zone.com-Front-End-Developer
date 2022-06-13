@@ -1,0 +1,67 @@
+export const fliters=[
+    {
+        id:1,
+        name:"1Custom"
+    },
+    {
+        id:2,
+        name:"7HZ"
+    },
+    {
+        id:3,
+        name:"Audio-Technica"
+    },
+    {
+        id:4,
+        name:"BLON"
+    },
+    {
+        id:5,
+        name:"BQEYZ"
+    },
+    {
+        id:6,
+        name:"CampfireAudio"
+    },
+    {
+        id:7,
+        name:"Etymotic"
+    },
+    {
+        id:8,
+        name:"FiiO"
+    },
+    {
+        id:9,
+        name:"Final Audio"
+    },
+    {
+        id:10,
+        name:"HiFiMAN"
+    },
+    {
+        id:11,
+        name:"IKKO"
+    },
+    {
+        id:12,
+        name:"JAYS"
+    },
+    {
+        id:13,
+        name:"KZ"
+    },
+    {
+        id:14,
+        name:"Mangrird"
+    },
+    {
+        id:15,
+        name:"Moondrop"
+    },
+    {
+        id:17,
+        name:"TIN HiFi"
+    }
+    
+]
