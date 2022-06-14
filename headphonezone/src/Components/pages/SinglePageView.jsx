@@ -16,6 +16,8 @@ import {
   VisuallyHidden,
   List,
   ListItem,
+  useToast,
+  Progress,
 } from "@chakra-ui/react";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
 import { useParams } from "react-router-dom";
@@ -23,19 +25,36 @@ import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { MdLocalShipping } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { singleEmployee } from "../redux/Products/action";
+import { addtocart, getCart } from "../redux/AddtoCart/action";
 export const SinglePageView = () => {
+  const toast = useToast();
   const SingleProduct = useSelector((state) => state.products.SingleProduct);
   let { id } = useParams();
+
   console.log(id);
   const dispatch = useDispatch();
   useEffect(() => {
     singleEmployee(dispatch, id);
   }, [id]);
-  const { image, product_title, final_price, sku ,product_description,ratings} = SingleProduct;
-let rate=Math.floor(id/10000000000)
-
+  const {
+    image,
+    product_title,
+    final_price,
+    sku,
+    product_description,
+    ratings,
+  } = SingleProduct;
+  let rate = Math.floor(id / 10000000000);
+  const handdleClick = () => {
+    addtocart({
+      SingleProduct,
+      dispatch,
+    }).then(() => {
+      getCart(dispatch);
+    });
+  };
   return (
-    <Container maxW={"7xl"}   fontFamily={"Roboto, sans-serif"}>
+    <Container maxW={"6xl"} fontFamily={"Roboto, sans-serif"}>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
         spacing={{ base: 8, md: 10 }}
@@ -46,7 +65,7 @@ let rate=Math.floor(id/10000000000)
             rounded={"md"}
             alt={"product image"}
             src={image}
-            fit={"cover"}
+            fit={"contain"}
             align={"center"}
             w={"100%"}
             h={{ base: "100%", sm: "400px", lg: "500px" }}
@@ -80,11 +99,12 @@ let rate=Math.floor(id/10000000000)
             >
               <Box color={"#3c07ff"}>
                 ₹.
-                {(final_price / 100).toLocaleString('hi-IN')}.00
+                {(final_price / 100).toLocaleString("hi-IN")}.00
               </Box>
               <Box textDecoration="line-through" color={"gray"}>
                 ₹.
-                {Math.floor((final_price / 100) * 1.4).toLocaleString('hi-IN')}.00
+                {Math.floor((final_price / 100) * 1.4).toLocaleString("hi-IN")}
+                .00
               </Box>
             </Flex>
             <Text display={"flex"} fontSize={"13px"} color="gray">
@@ -110,40 +130,71 @@ let rate=Math.floor(id/10000000000)
 
           <Button
             rounded={"60px"}
-            
             w={"80%"}
             mt={8}
             size={"md"}
             py={"6"}
-        bg="#3c07ff"
-        fontFamily={"Roboto, sans-serif"}
-        color={"white"}
+            bg="#3c07ff"
+            fontFamily={"Roboto, sans-serif"}
+            color={"white"}
             textTransform={"uppercase"}
             _hover={{
               transform: "translateY(2px)",
               boxShadow: "lg",
             }}
+            onClick={() =>
+              handdleClick(
+                toast({
+                  position: "top",
+                  isClosable: true,
+
+                  bg: "blue",
+                  duration: 4000,
+                  render: () => (
+                    <Box borderRadius={"50px"}>
+                      <Box
+                        color="white"
+                        textAlign={"center"}
+                        width={"500px"}
+                        p={3}
+                        bg="#3c07ff"
+                      >
+                        Add to Cart Successfully
+                      </Box>
+                      <Progress size="md" colorScheme={"pink"}  />
+                    </Box>
+                  ),
+                })
+              )
+            }
           >
             Add to cart
           </Button>
 
-          <Stack direction="row" alignItems="center" justifyContent={"flex-start"}>
+          <Stack
+            direction="row"
+            alignItems="center"
+            justifyContent={"flex-start"}
+          >
             <MdLocalShipping />
             <Text>2-3 business days delivery</Text>
           </Stack>
         </Stack>
       </SimpleGrid>
       <Box>
-        <Heading as="u" size={"md"}>Description</Heading>
+        <Heading as="u" size={"md"}>
+          Description
+        </Heading>
         <br />
-        <Text as="em"fontSize={"14px"}>{product_description}</Text>
+        <Text as="em" fontSize={"14px"}>
+          {product_description}
+        </Text>
       </Box>
     </Container>
   );
 };
 
 function Rating({ ratings, numReviews }) {
-  
   return (
     <Flex>
       <Box color={"#f6a429"} mt="1" display={"flex"}>

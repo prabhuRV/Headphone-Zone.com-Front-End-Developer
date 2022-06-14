@@ -27,12 +27,21 @@ import { Link as ReachLink } from "react-router-dom"
 
 import { NAV_ITEMS } from "./NavItems";
 import { CartLength } from "./CartLength";
+import { Login } from "../pages/Login";
+import { Search } from "../pages/Search";
+import { Cart } from "../pages/Cart";
 export const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box>
+    <Box  position= "-webkit-sticky"
+    pos= "sticky"
+    top="0"
+
+    >
       <Flex
+          
+      
         bg={useColorModeValue("#f9f9f9", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
         minH={"60px"}
@@ -84,29 +93,14 @@ export const Navbar = () => {
 
         <Stack
           flex={{ base: 1, md: 0 }}
-          justify={"flex-end"}
+
           direction={"row"}
-          spacing={1}
+          spacing={-6}
         >
-          <Button
-            fontSize={"sm"}
-            fontWeight={500}
-            color={"black"}
-            bg={"#f9f9f9"}
-            href={"#"}
-          >
-            Search
-          </Button>
-          <Button
-            display={{ base: "none", md: "inline-flex" }}
-            fontSize={"sm"}
-            fontWeight={600}
-            color={"black"}
-            bg={"#f9f9f9"}
-            href={"#"}
-          >
-            Log In
-          </Button>
+         <Search />
+         <Login />
+         <Cart />
+   
         </Stack>
         <Stack flex={{ base: 1, md: 0 }} justify={"flex-end"} direction={"row"}>
           <Text
@@ -114,14 +108,14 @@ export const Navbar = () => {
             fontSize={"sm"}
             fontWeight={600}
             color={"black"}
-            bg={"#f9f9f9"}
+            
             href={"#"}
-            ml="1"
-            mt="0.5"
+            ml="-3"
+            
           >
-            Cart
+                  <CartLength />
           </Text>
-          <CartLength />
+          
         </Stack>
       </Flex>
 
