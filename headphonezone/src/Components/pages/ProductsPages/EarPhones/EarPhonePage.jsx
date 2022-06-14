@@ -40,6 +40,14 @@ export const EarPhonePage = () => {
   const products = useSelector((state) => state.products.products);
   const [searchParams] = useSearchParams();
   const [page, setPage] = useState(1);
+  const [locationPage,setLocPage]=useState("")
+  useEffect(() => {
+    const handle = () => {
+      localStorage.setItem('Name', "/earphone");
+      
+   };
+  },[locationPage])
+
   const dispatch = useDispatch();
   useEffect(() => {
     let params = {
@@ -90,11 +98,11 @@ export const EarPhonePage = () => {
       </Box>
       <Box>
         <Stack display={{ md: "flex" }} flexDirection={{ md: "row" }}>
-          <Box w="500px">
+          <Box w="400px">
             <Fliters />
           </Box>
           <Box>
-            <Grid templateColumns="repeat(3, 1fr)">
+            <Grid templateColumns="repeat(3, 1fr)" >
               {products?.map((item) => {
                 return <Card key={item.id} {...item} />;
               })}

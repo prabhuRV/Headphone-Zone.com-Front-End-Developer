@@ -1,6 +1,7 @@
 {
-  "Earphone": [
+  "earphones": [
     {
+      "Product_url":"earphones",
       "id": 38115955736764,
       "properties": null,
       "quantity": 1,
@@ -15,7 +16,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "JAYS - a-One - Black/Gold",
-      "grams": 0,
+      "ratings": 4.3,
       "vendor": "JAYS",
       "taxable": true,
       "product_id": 6295314727100,
@@ -49,6 +50,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40481014775996,
       "properties": {},
       "quantity": 1,
@@ -63,7 +65,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "IKKO - OH1S Gems - Blue",
-      "grams": 0,
+      "ratings": 4.3,
       "vendor": "IKKO",
       "taxable": true,
       "product_id": 7014674563260,
@@ -97,6 +99,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39761117675708,
       "properties": {},
       "quantity": 1,
@@ -111,7 +114,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "IKKO - OH10",
-      "grams": 0,
+      "ratings": 4.3,
       "vendor": "IKKO",
       "taxable": true,
       "product_id": 6714383237308,
@@ -145,6 +148,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 41761193001148,
       "properties": {},
       "quantity": 1,
@@ -159,7 +163,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "IKKO - OH2 - Grey",
-      "grams": 0,
+      "ratings": 4.3,
       "vendor": "IKKO",
       "taxable": true,
       "product_id": 7519175278780,
@@ -193,6 +197,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 32108111462463,
       "properties": {},
       "quantity": 1,
@@ -207,7 +212,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Etymotic - ER4SR",
-      "grams": 0,
+      "ratings": 4.3,
       "vendor": "Etymotic",
       "taxable": true,
       "product_id": 4552429633599,
@@ -241,6 +246,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40079470231740,
       "properties": {},
       "quantity": 1,
@@ -255,7 +261,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Campfire Audio - Honeydew",
-      "grams": 0,
+      "ratings": 4.3,
       "vendor": "Campfire Audio",
       "taxable": true,
       "product_id": 6857430827196,
@@ -289,6 +295,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40078646018236,
       "properties": {},
       "quantity": 1,
@@ -303,7 +310,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Campfire Audio - Satsuma",
-      "grams": 0,
+      "ratings": 3.7,
       "vendor": "Campfire Audio",
       "taxable": true,
       "product_id": 6857052094652,
@@ -337,6 +344,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40623199027388,
       "properties": {},
       "quantity": 1,
@@ -351,7 +359,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "BQEYZ - Spring 2 - Black - 3.5mm",
-      "grams": 0,
+      "ratings": 3.7,
       "vendor": "BQEYZ",
       "taxable": true,
       "product_id": 7067715666108,
@@ -389,6 +397,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 32661783412799,
       "properties": {},
       "quantity": 1,
@@ -403,7 +412,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "BLON - BL-03 - Silver - With Mic",
-      "grams": 0,
+      "ratings": 3.7,
       "vendor": "BLON",
       "taxable": true,
       "product_id": 4675735191615,
@@ -441,6 +450,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 41346838790332,
       "properties": {},
       "quantity": 1,
@@ -455,7 +465,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "1Custom - Junior",
-      "grams": 0,
+      "ratings": 3.7,
       "vendor": "1Custom",
       "taxable": true,
       "product_id": 7348822048956,
@@ -489,6 +499,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 15518645977151,
       "properties": {},
       "quantity": 1,
@@ -503,7 +514,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "KZ - ZS10 Pro - Black",
-      "grams": 0,
+      "ratings": 3.7,
       "vendor": "KZ",
       "taxable": true,
       "product_id": 1929472114751,
@@ -541,6 +552,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40705816854716,
       "properties": {},
       "quantity": 1,
@@ -555,7 +567,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "KZ - EDX Pro - Crystal - With Mic",
-      "grams": 0,
+      "ratings": 2.8,
       "vendor": "KZ",
       "taxable": true,
       "product_id": 7096207114428,
@@ -593,6 +605,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 32879936503871,
       "properties": {},
       "quantity": 1,
@@ -607,7 +620,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "KZ - ZSN Pro X - Black - With Mic",
-      "grams": 0,
+      "ratings": 2.8,
       "vendor": "KZ",
       "taxable": true,
       "product_id": 4741453217855,
@@ -645,6 +658,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39841814282428,
       "properties": {},
       "quantity": 1,
@@ -659,7 +673,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - FA1 - Black",
-      "grams": 0,
+      "ratings": 2.8,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 6751775686844,
@@ -693,6 +707,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40782833287356,
       "properties": {},
       "quantity": 1,
@@ -707,7 +722,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - FD3 Pro",
-      "grams": 0,
+      "ratings": 2.8,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 7116037062844,
@@ -741,6 +756,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39882084516028,
       "properties": {},
       "quantity": 1,
@@ -755,7 +771,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - FD1 - Black",
-      "grams": 0,
+      "ratings": 2.8,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 6780677718204,
@@ -789,6 +805,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39881835151548,
       "properties": {},
       "quantity": 1,
@@ -803,7 +820,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - FH1S - Black",
-      "grams": 0,
+      "ratings": 2.8,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 6780583051452,
@@ -837,6 +854,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40882318934204,
       "properties": {},
       "quantity": 1,
@@ -851,7 +869,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - KATO",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 7151467430076,
@@ -885,6 +903,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39404422824124,
       "properties": {},
       "quantity": 1,
@@ -899,7 +918,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - Starfield",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 6588691873980,
@@ -933,6 +952,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 41670786252988,
       "properties": {},
       "quantity": 1,
@@ -947,7 +967,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - Chu - With Mic",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 7485643325628,
@@ -981,6 +1001,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39539185549500,
       "properties": {},
       "quantity": 1,
@@ -995,7 +1016,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - SSP",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 6636092522684,
@@ -1029,6 +1050,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39539118768316,
       "properties": {},
       "quantity": 1,
@@ -1043,7 +1065,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - SSR - Silver",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 6636077646012,
@@ -1077,6 +1099,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39540198899900,
       "properties": {},
       "quantity": 1,
@@ -1091,7 +1114,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - Aria",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 6636402933948,
@@ -1125,6 +1148,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 41462889316540,
       "properties": {},
       "quantity": 1,
@@ -1139,7 +1163,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - Quarks - With Mic",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 7029623423164,
@@ -1173,6 +1197,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 39374792753340,
       "properties": {},
       "quantity": 1,
@@ -1187,7 +1212,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - Spaceship",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 6575613935804,
@@ -1221,6 +1246,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40979658997948,
       "properties": {},
       "quantity": 1,
@@ -1235,7 +1261,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Final Audio - B2",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "Final Audio",
       "taxable": true,
       "product_id": 7190634660028,
@@ -1269,6 +1295,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 41225007005884,
       "properties": {},
       "quantity": 1,
@@ -1283,7 +1310,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Final Audio - E500",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "Final Audio",
       "taxable": true,
       "product_id": 7291021000892,
@@ -1317,6 +1344,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40882062229692,
       "properties": {},
       "quantity": 1,
@@ -1331,7 +1359,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Final Audio - E2000 - Matt Black",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "Final Audio",
       "taxable": true,
       "product_id": 7151370076348,
@@ -1369,6 +1397,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40898997256380,
       "properties": {},
       "quantity": 1,
@@ -1383,7 +1412,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Final Audio - E3000",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "Final Audio",
       "taxable": true,
       "product_id": 7157127217340,
@@ -1417,6 +1446,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 40875398103228,
       "properties": {},
       "quantity": 1,
@@ -1431,7 +1461,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Final Audio - E1000 - Black",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "Final Audio",
       "taxable": true,
       "product_id": 7140967514300,
@@ -1469,6 +1499,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 41319604191420,
       "properties": {},
       "quantity": 3,
@@ -1483,7 +1514,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "KZ x Crinacle - CRN (ZEX Pro) - With Mic - Black",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "KZ",
       "taxable": true,
       "product_id": 7335582990524,
@@ -1521,6 +1552,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"earphones",
       "id": 33086548017215,
       "properties": {},
       "quantity": 2,
@@ -1535,7 +1567,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "KZ - ZST X - Purple - With Mic",
-      "grams": 0,
+      "ratings": 3.5,
       "vendor": "KZ",
       "taxable": true,
       "product_id": 4798582718527,
@@ -1573,8 +1605,9 @@
       "line_level_total_discount": 0
     }
   ],
-  "HeadPhone": [
+  "headPhone": [
     {
+      "Product_url":"headphone",
       "id": 41358497841340,
       "properties": null,
       "quantity": 1,
@@ -1589,7 +1622,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "HiFiMAN - Edition XS",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "HiFiMAN",
       "taxable": true,
       "product_id": 7354927382716,
@@ -1623,6 +1656,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 39651754606780,
       "properties": {},
       "quantity": 1,
@@ -1637,7 +1671,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Sennheiser - HD 600",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Sennheiser",
       "taxable": true,
       "product_id": 6673921966268,
@@ -1671,6 +1705,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 41648599400636,
       "properties": {},
       "quantity": 1,
@@ -1685,7 +1720,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Monoprice - Monolith M1060C",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Monoprice",
       "taxable": true,
       "product_id": 7478301720764,
@@ -1719,6 +1754,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 41652125663420,
       "properties": {},
       "quantity": 1,
@@ -1733,7 +1769,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Monoprice - Monolith M1060",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Monoprice",
       "taxable": true,
       "product_id": 7478935716028,
@@ -1767,6 +1803,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 7529973317695,
       "properties": {},
       "quantity": 1,
@@ -1781,7 +1818,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "HiFiMAN - Sundara",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "HiFiMAN",
       "taxable": true,
       "product_id": 663287201855,
@@ -1815,6 +1852,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 14063024583,
       "properties": {},
       "quantity": 1,
@@ -1829,7 +1867,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Meze - 99 Classics - Walnut/Gold",
-      "grams": 0,
+      "ratings": 4.6,
       "vendor": "Meze",
       "taxable": true,
       "product_id": 4100577607,
@@ -1863,6 +1901,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 31883461066815,
       "properties": {},
       "quantity": 1,
@@ -1877,7 +1916,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Audio-Technica - ATH-R70x",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "Audio-Technica",
       "taxable": true,
       "product_id": 4504232689727,
@@ -1911,6 +1950,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 31225149227071,
       "properties": {},
       "quantity": 1,
@@ -1925,7 +1965,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "V-MODA - M200",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "V-MODA",
       "taxable": true,
       "product_id": 4364555616319,
@@ -1959,6 +1999,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 16997631367,
       "properties": {},
       "quantity": 1,
@@ -1973,7 +2014,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Grado - SR225x",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "Grado",
       "taxable": true,
       "product_id": 5445365831,
@@ -2007,6 +2048,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 41649128898748,
       "properties": {},
       "quantity": 1,
@@ -2021,7 +2063,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Monoprice - Monolith M565C",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "Monoprice",
       "taxable": true,
       "product_id": 7478357491900,
@@ -2055,6 +2097,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 16007838957631,
       "properties": {},
       "quantity": 1,
@@ -2069,7 +2112,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "V-MODA - Crossfade M-100 Master",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "V-MODA",
       "taxable": true,
       "product_id": 2011903655999,
@@ -2103,6 +2146,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 33115065450559,
       "properties": {},
       "quantity": 1,
@@ -2117,7 +2161,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Sennheiser - HD 560S",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "Sennheiser",
       "taxable": true,
       "product_id": 4807978942527,
@@ -2151,6 +2195,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 46290986631,
       "properties": {},
       "quantity": 1,
@@ -2165,7 +2210,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Meze - 99 Neo",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "Meze",
       "taxable": true,
       "product_id": 10682664967,
@@ -2199,6 +2244,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 981561669,
       "properties": {},
       "quantity": 1,
@@ -2213,7 +2259,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Beyerdynamic - DT 880 Pro - White",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "Beyerdynamic",
       "taxable": true,
       "product_id": 378695349,
@@ -2247,6 +2293,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 16996868615,
       "properties": {},
       "quantity": 1,
@@ -2261,7 +2308,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Grado - SR125x",
-      "grams": 0,
+      "ratings": 3.6,
       "vendor": "Grado",
       "taxable": true,
       "product_id": 5445249607,
@@ -2295,6 +2342,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 41694772592828,
       "properties": {},
       "quantity": 1,
@@ -2309,7 +2357,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "HiFiMAN - Deva Pro - Wired",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "HiFiMAN",
       "taxable": true,
       "product_id": 7495920779452,
@@ -2343,6 +2391,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 39252252852412,
       "properties": {},
       "quantity": 1,
@@ -2357,7 +2406,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "HiFiMAN - HE400se",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "HiFiMAN",
       "taxable": true,
       "product_id": 6537039413436,
@@ -2391,6 +2440,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 16996639623,
       "properties": {},
       "quantity": 1,
@@ -2405,7 +2455,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Grado - SR80x",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Grado",
       "taxable": true,
       "product_id": 5445204167,
@@ -2439,6 +2489,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 14176727433279,
       "properties": {},
       "quantity": 1,
@@ -2453,7 +2504,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "V-MODA - Crossfade LP2",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "V-MODA",
       "taxable": true,
       "product_id": 1682752536639,
@@ -2487,6 +2538,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 16266251655,
       "properties": {},
       "quantity": 1,
@@ -2501,7 +2553,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Beyerdynamic - DT 990 Pro - 250 Ohms",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Beyerdynamic",
       "taxable": true,
       "product_id": 378731605,
@@ -2535,6 +2587,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 7744163840063,
       "properties": {},
       "quantity": 1,
@@ -2549,7 +2602,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Audio-Technica - ATH-M50x - Black",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Audio-Technica",
       "taxable": true,
       "product_id": 707846045759,
@@ -2583,6 +2636,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 14937952026687,
       "properties": {},
       "quantity": 1,
@@ -2597,7 +2651,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Beyerdynamic - DT 770 PRO - 80 Ohms",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Beyerdynamic",
       "taxable": true,
       "product_id": 378686845,
@@ -2631,6 +2685,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 41580480397500,
       "properties": {},
       "quantity": 1,
@@ -2645,7 +2700,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Grado - SR60x",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Grado",
       "taxable": true,
       "product_id": 7454300242108,
@@ -2679,6 +2734,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 32531920388159,
       "properties": {},
       "quantity": 1,
@@ -2693,7 +2749,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Shure - SRH240A",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Shure",
       "taxable": true,
       "product_id": 4647161593919,
@@ -2727,6 +2783,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 2541791297,
       "properties": {},
       "quantity": 1,
@@ -2741,7 +2798,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Shure - SRH440",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Shure",
       "taxable": true,
       "product_id": 884848065,
@@ -2775,6 +2832,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 1011383457,
       "properties": {},
       "quantity": 1,
@@ -2789,7 +2847,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Audio-Technica - ATH-M40x",
-      "grams": 0,
+      "ratings": 4.0,
       "vendor": "Audio-Technica",
       "taxable": true,
       "product_id": 387332849,
@@ -2823,6 +2881,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 1011382517,
       "properties": {},
       "quantity": 1,
@@ -2837,7 +2896,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Audio-Technica - ATH-M30x",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "Audio-Technica",
       "taxable": true,
       "product_id": 387332597,
@@ -2871,6 +2930,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 1011380881,
       "properties": {},
       "quantity": 1,
@@ -2885,7 +2945,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Audio-Technica - ATH-M20x",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "Audio-Technica",
       "taxable": true,
       "product_id": 387332157,
@@ -2919,6 +2979,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 50363193543,
       "properties": {},
       "quantity": 1,
@@ -2933,7 +2994,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Sennheiser - HD 569",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "Sennheiser",
       "taxable": true,
       "product_id": 11024345927,
@@ -2967,6 +3028,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"headphone",
       "id": 14937947832383,
       "properties": {},
       "quantity": 1,
@@ -2981,7 +3043,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Beyerdynamic - DT 770 PRO - 32 Ohms",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "Beyerdynamic",
       "taxable": true,
       "product_id": 378686845,
@@ -3015,8 +3077,9 @@
       "line_level_total_discount": 0
     }
   ],
-  "PortableAmp": [
+  "portableAmp": [
     {
+      "Product_url":"poratbleAmp",
       "id": 15574105358399,
       "properties": null,
       "quantity": 1,
@@ -3031,7 +3094,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "AudioQuest - DragonFly Cobalt",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "AudioQuest",
       "taxable": true,
       "product_id": 1937236525119,
@@ -3065,6 +3128,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 32533854663,
       "properties": {},
       "quantity": 1,
@@ -3079,7 +3143,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "AudioQuest - DragonFly Red",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "AudioQuest",
       "taxable": true,
       "product_id": 9252725319,
@@ -3113,6 +3177,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 40991896731836,
       "properties": {},
       "quantity": 1,
@@ -3127,7 +3192,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Lotoo - PAW S2",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "Lotoo",
       "taxable": true,
       "product_id": 7195775172796,
@@ -3161,6 +3226,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41233102733500,
       "properties": {},
       "quantity": 1,
@@ -3175,7 +3241,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Cayin - RU6",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "Cayin",
       "taxable": true,
       "product_id": 7294270406844,
@@ -3209,6 +3275,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 32847426846783,
       "properties": {},
       "quantity": 1,
@@ -3223,7 +3290,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "TOPPING - NX4 DSD",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "TOPPING",
       "taxable": true,
       "product_id": 4732941303871,
@@ -3257,6 +3324,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41610005610684,
       "properties": {},
       "quantity": 1,
@@ -3271,7 +3339,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "xDuoo - Link2 Bal",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "xDuoo",
       "taxable": true,
       "product_id": 7465913581756,
@@ -3305,6 +3373,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41662433362108,
       "properties": {},
       "quantity": 1,
@@ -3319,7 +3388,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Moondrop - Moonriver 2",
-      "grams": 0,
+      "ratings": 3.4,
       "vendor": "Moondrop",
       "taxable": true,
       "product_id": 7483637498044,
@@ -3353,6 +3422,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41268749795516,
       "properties": {},
       "quantity": 1,
@@ -3367,7 +3437,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "TOPPING - NX7 - Black",
-      "grams": 0,
+      "ratings": 3.9,
       "vendor": "TOPPING",
       "taxable": true,
       "product_id": 7310972092604,
@@ -3401,6 +3471,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41202739282108,
       "properties": {},
       "quantity": 1,
@@ -3415,7 +3486,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "iFi Audio - GO blu",
-      "grams": 0,
+      "ratings": 3.9,
       "vendor": "iFi Audio",
       "taxable": true,
       "product_id": 7280690233532,
@@ -3449,6 +3520,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 40939669127356,
       "properties": {},
       "quantity": 1,
@@ -3463,7 +3535,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "iFi Audio - hip-dac2",
-      "grams": 0,
+      "ratings": 3.9,
       "vendor": "iFi Audio",
       "taxable": true,
       "product_id": 7172819517628,
@@ -3497,6 +3569,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 39795398639804,
       "properties": {},
       "quantity": 1,
@@ -3511,7 +3584,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - Q3",
-      "grams": 0,
+      "ratings": 3.9,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 6734971601084,
@@ -3545,6 +3618,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41537122369724,
       "properties": {},
       "quantity": 1,
@@ -3559,7 +3633,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Shanling - UA5 - Black",
-      "grams": 0,
+      "ratings": 3.9,
       "vendor": "Shanling",
       "taxable": true,
       "product_id": 7436800852156,
@@ -3593,6 +3667,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 32778916462655,
       "properties": {},
       "quantity": 1,
@@ -3607,7 +3682,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "EarMen - Sparrow",
-      "grams": 0,
+      "ratings": 3.9,
       "vendor": "EarMen",
       "taxable": true,
       "product_id": 4713100378175,
@@ -3641,6 +3716,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 40676941529276,
       "properties": {},
       "quantity": 1,
@@ -3655,7 +3731,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "TempoTec - Sonata MHD",
-      "grams": 0,
+      "ratings": 3.9,
       "vendor": "TempoTec",
       "taxable": true,
       "product_id": 7088012689596,
@@ -3689,6 +3765,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 40539807776956,
       "properties": {},
       "quantity": 1,
@@ -3703,7 +3780,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "HiBy - FC3",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "HiBy",
       "taxable": true,
       "product_id": 7036089860284,
@@ -3737,6 +3814,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 37837470269628,
       "properties": {},
       "quantity": 2,
@@ -3751,7 +3829,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "EarMen - Eagle",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "EarMen",
       "taxable": true,
       "product_id": 6197093433532,
@@ -3785,6 +3863,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 40859904180412,
       "properties": {},
       "quantity": 1,
@@ -3799,7 +3878,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Shanling - UA1 Pro - Silver",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "Shanling",
       "taxable": true,
       "product_id": 7142837944508,
@@ -3833,6 +3912,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 40825006325948,
       "properties": {},
       "quantity": 1,
@@ -3847,7 +3927,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - E10K - Type-C - Black",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 6751743738044,
@@ -3885,6 +3965,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41173424898236,
       "properties": {},
       "quantity": 1,
@@ -3899,7 +3980,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "iBasso - DC05 - Black",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "iBasso",
       "taxable": true,
       "product_id": 7226657800380,
@@ -3933,6 +4014,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41763206693052,
       "properties": {},
       "quantity": 1,
@@ -3947,7 +4029,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "IKKO - Zerda ITM01 - Type-C",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "IKKO",
       "taxable": true,
       "product_id": 7519976227004,
@@ -3981,6 +4063,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 31924901969983,
       "properties": {},
       "quantity": 1,
@@ -3995,7 +4078,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Shanling - UP4",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "Shanling",
       "taxable": true,
       "product_id": 4509691641919,
@@ -4029,6 +4112,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41070500544700,
       "properties": {},
       "quantity": 1,
@@ -4043,7 +4127,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - BTR5 2021 - Standard Edition",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 7221553135804,
@@ -4077,6 +4161,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41271968563388,
       "properties": {},
       "quantity": 1,
@@ -4091,7 +4176,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "xDuoo - Link V2 - Grey",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "xDuoo",
       "taxable": true,
       "product_id": 7312353755324,
@@ -4125,6 +4210,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 39308908789948,
       "properties": {},
       "quantity": 1,
@@ -4139,7 +4225,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Astell&Kern - PEE51",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "Astell&Kern",
       "taxable": true,
       "product_id": 6553207079100,
@@ -4173,6 +4259,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 40891085619388,
       "properties": {},
       "quantity": 1,
@@ -4187,7 +4274,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Shanling - UA2 - Black",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "Shanling",
       "taxable": true,
       "product_id": 6553005195452,
@@ -4221,6 +4308,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41546517512380,
       "properties": {},
       "quantity": 1,
@@ -4235,7 +4323,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Venture Electronics - Abigail",
-      "grams": 0,
+      "ratings": 3.3,
       "vendor": "Venture Electronics",
       "taxable": true,
       "product_id": 7440612360380,
@@ -4269,6 +4357,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 41734754435260,
       "properties": {},
       "quantity": 1,
@@ -4283,7 +4372,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - KA1 - Classic Black - Android",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 7509318074556,
@@ -4321,6 +4410,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"poratbleAmp",
       "id": 8829378658367,
       "properties": {},
       "quantity": 1,
@@ -4335,7 +4425,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Astell&Kern - AK XB10",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "Astell&Kern",
       "taxable": true,
       "product_id": 747175411775,
@@ -4371,6 +4461,7 @@
   ],
   "HiRelPlayer": [
     {
+      "Product_url":"HiRelPlayer",
       "id": 33060073963583,
       "properties": null,
       "quantity": 1,
@@ -4385,7 +4476,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Cayin - N3Pro",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "Cayin",
       "taxable": true,
       "product_id": 4790823813183,
@@ -4419,6 +4510,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"HiRelPlayer",
       "id": 41674946183356,
       "properties": {},
       "quantity": 1,
@@ -4433,7 +4525,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Hidizs - AP80 Pro-X - Black",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "Hidizs",
       "taxable": true,
       "product_id": 7487619203260,
@@ -4467,6 +4559,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"HiRelPlayer",
       "id": 41087583322300,
       "properties": {},
       "quantity": 1,
@@ -4481,7 +4574,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Astell&Kern - A&norma SR25 MKII",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "Astell&Kern",
       "taxable": true,
       "product_id": 7229185097916,
@@ -4515,6 +4608,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"HiRelPlayer",
       "id": 41070245150908,
       "properties": {},
       "quantity": 1,
@@ -4529,7 +4623,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Lotoo - PAW Pico",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "Lotoo",
       "taxable": true,
       "product_id": 7221574729916,
@@ -4563,6 +4657,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"HiRelPlayer",
       "id": 1291970019335,
       "properties": {},
       "quantity": 1,
@@ -4577,7 +4672,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Cayin - iDAP-6",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "Cayin",
       "taxable": true,
       "product_id": 141366132743,
@@ -4611,6 +4706,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"HiRelPlayer",
       "id": 41399548969148,
       "properties": {},
       "quantity": 1,
@@ -4625,7 +4721,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "FiiO - M11 Plus ESS",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "FiiO",
       "taxable": true,
       "product_id": 7374131167420,
@@ -4659,6 +4755,7 @@
       "line_level_total_discount": 0
     },
     {
+      "Product_url":"HiRelPlayer",
       "id": 41514266525884,
       "properties": {},
       "quantity": 1,
@@ -4673,7 +4770,7 @@
       "total_discount": 0,
       "discounts": [],
       "sku": "Shanling - M3X - Purple",
-      "grams": 0,
+      "ratings": 4.2,
       "vendor": "Shanling",
       "taxable": true,
       "product_id": 6681088327868,

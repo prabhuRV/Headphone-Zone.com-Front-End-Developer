@@ -1,4 +1,4 @@
-import {GETDATA_FALIAURE, GETDATA_REQUEST, GETDATA_SUCCESS} from ".././actionTypes"
+import {GETDATA_FALIAURE, GETDATA_REQUEST, GETDATA_SUCCESS, SINGLE_GET_PRODUCT_FALIURE, SINGLE_GET_PRODUCT_REQUEST, SINGLE_GET_PRODUCT_SUCCESS} from ".././actionTypes"
 import axios from "axios";
 const getDataRequest=(payload)=>
 {
@@ -30,7 +30,7 @@ export const getData=(payload)=>
         dispatch(getDataRequest())
 
        return axios({
-            url: "http://localhost:8080/Earphone",
+            url: "http://localhost:8080/earphones",
             method: "get",
             params:
             {
@@ -47,3 +47,23 @@ export const getData=(payload)=>
             });
     }
 }
+export const singleEmployee = async (dispatch, id) => {
+  let name=localStorage.getItem('name');
+
+    dispatch({
+      type: SINGLE_GET_PRODUCT_REQUEST,
+    });
+    try {
+      let res = await axios.get(`http://localhost:8080/${name}/${id}`);
+      let data = await res.data;
+      console.log(data);
+      dispatch({
+        type: SINGLE_GET_PRODUCT_SUCCESS,
+        payload: data,
+      });
+    } catch (error) {
+      dispatch({
+        type: SINGLE_GET_PRODUCT_FALIURE,
+      });
+    }
+  };

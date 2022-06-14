@@ -55,6 +55,13 @@ export const HeadPhonePage = () => {
     dispatch(getData(params));
   }, [dispatch, searchParams, page]);
 
+      
+     console.log(products);
+  // useEffect(()=>
+  // {
+ 
+  //   localStorage.setItem('Name', Product_url);
+  // },[products])
   return (
     <Box>
       gdkjhbgdjkhbnjd

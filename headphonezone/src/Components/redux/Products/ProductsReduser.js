@@ -1,9 +1,10 @@
-import { GETDATA_FALIAURE, GETDATA_REQUEST, GETDATA_SUCCESS } from "../actionTypes"
+import { GETDATA_FALIAURE, GETDATA_REQUEST, GETDATA_SUCCESS, SINGLE_GET_PRODUCT_SUCCESS } from "../actionTypes"
 
 const intialState={
     products:[],
     isLoading:false,
-    isError:""
+    isError:"",
+    SingleProduct:[]
 }
 
 export const ProductsReduser=(state=intialState,action)=>
@@ -28,6 +29,14 @@ switch(type)
                     products:payload
                 }
             };
+            case SINGLE_GET_PRODUCT_SUCCESS:
+                {
+                return{    ...state,
+                    isError:"",
+                    isLoading:false,
+                    SingleProduct:payload  
+                }
+                }
             case GETDATA_FALIAURE:
                 {
                     return {

@@ -5,7 +5,7 @@ import { HeadReduser } from "./HeadPhone/HeadReduser";
 import { ProductsReduser } from "./Products/ProductsReduser";
 const rootReduser=combineReducers({
 products:ProductsReduser,
-products:HeadReduser
+Hproducts:HeadReduser
 })
 
 

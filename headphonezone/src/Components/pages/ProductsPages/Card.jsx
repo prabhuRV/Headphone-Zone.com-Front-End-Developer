@@ -11,22 +11,24 @@ import {
   Center,
   Text,
 } from "@chakra-ui/react";
+import { useEffect, useState } from "react";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
-function Rating({ rating, numReviews }) {
+function Rating({ ratings, numReviews }) {
   return (
     <Flex>
       <Box color={"#f6a429"} mt="1" display={"flex"}>
         {Array(5)
           .fill("")
           .map((_, i) => {
-            const roundedRating = Math.round(rating * 2) / 2;
+            const roundedRating = Math.round(ratings * 2) / 2;
             if (roundedRating - i >= 1) {
               return (
                 <BsStarFill
                   key={i}
                   style={{ marginLeft: "1" }}
-                  color={i < rating ? "teal.500" : "gray.300"}
+                  color={i < ratings ? "teal.500" : "gray.300"}
                 />
               );
             }
@@ -44,10 +46,11 @@ function Rating({ rating, numReviews }) {
 }
 
 function Card(props) {
-  const { product_title, final_price, image, sku } = props;
+  const { product_title, final_price, image, sku,id ,Product_url,ratings} = props;
 
+  let rate=Math.floor(id/10000000000)
   return (
-    <Flex p={3} w="full" alignItems="center" justifyContent="center">
+    <Flex p={4} w="full" alignItems="center" justifyContent="center">
       <Box
         bg={useColorModeValue("white", "gray.800")}
         width="80"
@@ -56,6 +59,7 @@ function Card(props) {
         shadow="lg"
         position="relative"
       >
+       <Link onClick={()=>localStorage.setItem("name",`${Product_url}`)} to={`/${Product_url}/${id}`} >
         <Image
         ml="6"
           boxSize="250px"
@@ -63,6 +67,7 @@ function Card(props) {
           alt={`Picture of ${product_title}`}
           roundedTop="xs"
         />
+        </Link>
 
         <Box p="2" textAlign={"center"}>
           <Box
@@ -76,16 +81,16 @@ function Card(props) {
           </Box>
           <Text fontSize="13px">{sku}</Text>
           <Box textAlign={"center"} fontSize="10px" ml="10">
-            <Rating rating={2000} numReviews={1000} />
+            <Rating ratings={ratings} numReviews={rate} />
           </Box>
           <Flex  fontSize="md" textAlign={"center"} m="auto" gap={"30"}>
             <Box ml="60px" color={"#3c07ff"}>
               ₹.
-              {final_price / 100}
+              {(final_price / 100).toLocaleString('hi-IN') }.00
             </Box>
             <Box textDecoration="line-through" color={"gray"}>
               ₹.
-              {Math.floor((final_price)/100*1.4)}
+              {Math.floor((final_price)/100*1.4).toLocaleString('hi-IN')} .00
             </Box>
           </Flex>
         </Box>
