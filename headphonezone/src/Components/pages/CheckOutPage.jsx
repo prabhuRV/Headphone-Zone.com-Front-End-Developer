@@ -63,7 +63,7 @@ console.log(value);
             />
             <Flex justifyContent={"space-between"}>
               <FormLabel htmlFor="email">Email address</FormLabel>
-              <FormLabel htmlFor="email">
+              <FormLabel onClick={()=>navigate("/login")}>
                 {" "}
                 Already have an account?Log in
               </FormLabel>
