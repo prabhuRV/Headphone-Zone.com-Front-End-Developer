@@ -10,7 +10,10 @@ import {
     useDisclosure,
     Button,
     Box,
+    Stack,
+    Input,
   } from '@chakra-ui/react'
+  import {Search2Icon } from '@chakra-ui/icons'
 export const Search = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const handleClick = (newSize) => {
@@ -29,17 +32,14 @@ export const Search = () => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader>{`${"md"} drawer contents`}</DrawerHeader>
+          <DrawerHeader>Search</DrawerHeader>
           <DrawerBody>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Consequat nisl vel pretium lectus quam id. Semper quis lectus
-              nulla at volutpat diam ut venenatis. Dolor morbi non arcu risus
-              quis varius quam quisque. Massa ultricies mi quis hendrerit dolor
-              magna eget est lorem. Erat imperdiet sed euismod nisi porta.
-              Lectus vestibulum mattis ullamcorper velit.
-            </p>
+            <Box display={"flex"}>
+
+          <Input  placeholder='Search here' size='lg' width={"80%"} />
+          <Search2Icon m="auto" ml="5px" h="30px" w="30px" />
+            </Box>
+          
           </DrawerBody>
         </DrawerContent>
       </Drawer>

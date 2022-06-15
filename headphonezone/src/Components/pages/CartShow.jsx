@@ -2,8 +2,9 @@ import { Box, Button, Image, SlideFade, Stack, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
-import { getCart } from "../redux/AddtoCart/action";
+import { deleteitem, getCart } from "../redux/AddtoCart/action";
 import { useDispatch } from "react-redux";
+import {DeleteIcon } from '@chakra-ui/icons'
 export const CartShow = (props) => {
     const {image,price,ratings,name,quantity,id,totalPrice}=props
    
@@ -23,7 +24,13 @@ export const CartShow = (props) => {
     )
     
  }
- 
+ const handlleDelete = async () => {
+  console.log("hai delete")
+  console.log(id);
+  deleteitem(dispatch, id).then(() => {
+    getCart(dispatch);
+  })
+};
 
 
   return (
@@ -46,10 +53,12 @@ export const CartShow = (props) => {
           </Box>
           <Box display={"flex"} h="30px" mt="10px" w={"100px"} justifyContent="space-around" textAlign="center">
             <Button border={"none"}h="30px" onClick={()=>handdleUpdata(setCount(count-1))}>-</Button>
-            <Text m={"auto"}>
+            <Button border={"none"}h="30px" w="10px" m={"auto"}>
                 {quantity}
-            </Text>
+            </Button>
             <Button border={"none"} h="30px" onClick={()=>handdleUpdata(setCount(count+1))}>+</Button>
+        
+            <DeleteIcon onClick={handlleDelete} ml="2" h={4} w={4} alignSelf={'center'} />
           </Box>
         </Box>
         <Box>

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ADD_TOCART_FAILURE, ADD_TOCART_REQUEST, ADD_TOCART_SUCCESS, GET_CART_FALIURE, GET_CART_REQUEST, GET_CART_SUCCESS } from "../actionTypes";
+import { ADD_TOCART_FAILURE, ADD_TOCART_REQUEST, ADD_TOCART_SUCCESS, DELETE_FROM_CART, GET_CART_FALIURE, GET_CART_REQUEST, GET_CART_SUCCESS } from "../actionTypes";
 
 export const addtocart = async ({ SingleProduct, dispatch}) => {
 
@@ -46,4 +46,14 @@ export const addtocart = async ({ SingleProduct, dispatch}) => {
             type: GET_CART_FALIURE
           });
         }
+      };
+      export const deleteitem = async (dispatch, id) => {
+        console.log(id);
+        let res = await axios.delete(`http://localhost:8080/addtocart/${id}`);
+      
+        dispatch({
+          type: DELETE_FROM_CART,
+          payload: id,
+        });
+        
       };

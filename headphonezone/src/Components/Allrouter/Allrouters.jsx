@@ -6,12 +6,13 @@ import Footer from '../Footer/Footer'
 import { EarPhonePage } from '../pages/ProductsPages/EarPhones/EarPhonePage'
 import { HeadPhonePage } from '../pages/ProductsPages/Hradphone/Headphone'
 import { SinglePageView } from '../pages/SinglePageView'
+import { CheckOutPage } from '../pages/CheckOutPage'
 
 export const Allrouters = () => {
   return (
     <div>
         <Navbar />
-        {/* <SinglePageView /> */}
+     
         <Routes>
           
   <Route path="/" element={<Home />} />
@@ -21,6 +22,7 @@ export const Allrouters = () => {
   <Route path="/headphone/:id" element={<SinglePageView />} />
   <Route path="/earphones/:id" element={<SinglePageView />} />
   <Route path="/earphones/:id" element={<SinglePageView />} />
+  <Route path='/ChkeckOut' element={<CheckOutPage />} />
   </Routes>
   <Footer />
     </div>

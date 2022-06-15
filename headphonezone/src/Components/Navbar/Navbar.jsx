@@ -34,8 +34,8 @@ export const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box  position= "-webkit-sticky"
-    pos= "sticky"
+    <Box 
+   
     top="0"
 
     >

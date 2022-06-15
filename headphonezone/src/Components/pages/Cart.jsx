@@ -17,7 +17,9 @@ import { FiShoppingCart } from 'react-icons/fi';
 import { useDispatch, useSelector } from "react-redux";
 import { CartShow } from "./CartShow";
 import { getCart } from "../redux/AddtoCart/action";
+import { useNavigate } from "react-router-dom";
 export const Cart = () => {
+  const navigate = useNavigate();
   const AddtoCart = useSelector((state) => state.AddtoCart.AddtoCart);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const handleClick = (newSize) => {
@@ -30,12 +32,8 @@ export const Cart = () => {
   }, [dispatch]);
   let countt=0
 
-//   useEffect(()=>
-//   {
-//    countt+=totalPrice
-//   },[countt,totalPrice])
 
-// console.log(AddtoCart.);
+let totalPrice=0
   return (
     <Box>
       <Button bg={"white"} onClick={() => handleClick("md")} key={"md"} m={4}>
@@ -51,6 +49,7 @@ export const Cart = () => {
                 {
                     AddtoCart.map((item)=>
                     {
+                      totalPrice+=item.totalPrice
                         return  <CartShow key={item.id} {...item} />
                     })
                 }
@@ -71,8 +70,8 @@ export const Cart = () => {
               boxShadow: "lg",
             }}
             
-          >
-            Check Out
+            onClick= {()=> navigate("/ChkeckOut")} >
+            Check Out {(totalPrice).toLocaleString("hi-IN")}
           </Button>
            
           </DrawerBody>
