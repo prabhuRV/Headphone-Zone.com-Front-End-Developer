@@ -7,6 +7,8 @@ import { EarPhonePage } from '../pages/ProductsPages/EarPhones/EarPhonePage'
 import { HeadPhonePage } from '../pages/ProductsPages/Hradphone/Headphone'
 import { SinglePageView } from '../pages/SinglePageView'
 import { CheckOutPage } from '../pages/CheckOutPage'
+import Payment from '../pages/Payment'
+import { Login } from '../pages/Login'
 
 export const Allrouters = () => {
   return (
@@ -23,6 +25,8 @@ export const Allrouters = () => {
   <Route path="/earphones/:id" element={<SinglePageView />} />
   <Route path="/earphones/:id" element={<SinglePageView />} />
   <Route path='/ChkeckOut' element={<CheckOutPage />} />
+  <Route path='/paymentMethod' element={<Payment />} />
+  <Route path='/login' element={<Login />} />
   </Routes>
   <Footer />
     </div>

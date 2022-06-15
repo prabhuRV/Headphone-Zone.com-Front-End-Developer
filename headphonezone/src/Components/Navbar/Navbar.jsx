@@ -23,7 +23,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import { Link as ReachLink } from "react-router-dom"
+import { Link as ReachLink, useNavigate } from "react-router-dom"
 
 import { NAV_ITEMS } from "./NavItems";
 import { CartLength } from "./CartLength";
@@ -32,7 +32,7 @@ import { Search } from "../pages/Search";
 import { Cart } from "../pages/Cart";
 export const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
-
+const navigate=useNavigate()
   return (
     <Box 
    
@@ -95,10 +95,18 @@ export const Navbar = () => {
           flex={{ base: 1, md: 0 }}
 
           direction={"row"}
-          spacing={-6}
+          
         >
          <Search />
-         <Login />
+         <Box>
+         <Button
+        bg={"white"}
+          onClick={()=>navigate("/login")}
+          key={"md"}
+          m={4}
+        >Login</Button>
+         </Box>
+       
          <Cart />
    
         </Stack>

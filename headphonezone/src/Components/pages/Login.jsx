@@ -1,48 +1,73 @@
-import React from 'react'
+import React from "react";
 import {
-    Drawer,
-    DrawerBody,
-    DrawerFooter,
-    DrawerHeader,
-    DrawerOverlay,
-    DrawerContent,
-    DrawerCloseButton,
-    useDisclosure,
-    Button,
-    Box,
-  } from '@chakra-ui/react'
+  Flex,
+  Box,
+  FormControl,
+  FormLabel,
+  Input,
+  Checkbox,
+  Stack,
+  Link,
+  Button,
+  Heading,
+  Text,
+  useColorModeValue,
+} from "@chakra-ui/react";
 export const Login = () => {
-    const { isOpen, onOpen, onClose } = useDisclosure()
-    const handleClick = (newSize) => {
+  
+  return (<Box>
+    <Flex
+      minH={'100vh'}
+      align={'center'}
+      justify={'center'}
+      bg={useColorModeValue('gray.50', 'gray.800')}>
+      <Stack spacing={8} mx={'auto'} w="500px" py={12} px={6}>
+        <Stack align={'center'}>
+          <Heading fontSize={'md'}>Please enter your e-mail and password:</Heading>
+         
+        </Stack>
+        <Box
+         rounded={"lg"}
+          bg={useColorModeValue('white', 'gray.700')}
+          boxShadow={'lg'}
+          p={8}>
+          <Stack spacing={4} >
+            <FormControl id="email">
+              <FormLabel>Email address</FormLabel>
+              <Input type="email" rounded={"50px"} />
+            </FormControl>
+            <FormControl id="password">
+              <FormLabel>Password</FormLabel>
+              <Input type="password" rounded={"50px"}/>
+            </FormControl>
+            <Stack spacing={10}>
+              <Stack
+                direction={{ base: 'column', sm: 'row' }}
+                align={'start'}
+                justify={'space-between'}>
+                <Checkbox>Remember me</Checkbox>
+                <Link color={'blue.400'}>Forgot password?</Link>
+              </Stack>
+              <Button
+              rounded={"50px"}
+                bg={'#3c07ff'}
+                color={'white'}
+                _hover={{
+                  bg: '#3c07ff',
+                }}>
+                Log in
+              </Button>
+            </Stack>
+          </Stack>
         
-        onOpen()
-      }
-  return (
-    <Box>
-        <Button
-        bg={"white"}
-          onClick={() => handleClick("md")}
-          key={"md"}
-          m={4}
-        >Log In</Button>
-    <Drawer onClose={onClose} isOpen={isOpen} size={"md"}>
-        <DrawerOverlay />
-        <DrawerContent>
-          <DrawerCloseButton />
-          <DrawerHeader>{`${"md"} drawer contents`}</DrawerHeader>
-          <DrawerBody>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Consequat nisl vel pretium lectus quam id. Semper quis lectus
-              nulla at volutpat diam ut venenatis. Dolor morbi non arcu risus
-              quis varius quam quisque. Massa ultricies mi quis hendrerit dolor
-              magna eget est lorem. Erat imperdiet sed euismod nisi porta.
-              Lectus vestibulum mattis ullamcorper velit.
-            </p>
-          </DrawerBody>
-        </DrawerContent>
-      </Drawer>
-      </Box>
-  )
-}
+        </Box>
+        <Box textAlign={"center"}>
+      <Text fontSize={"14px"} fontFamily={"Roboto, sans-serif"} color="gray" >New customer?Create an account</Text>
+    </Box>
+      </Stack>
+     
+    </Flex>
+   
+    </Box>
+  );
+};
