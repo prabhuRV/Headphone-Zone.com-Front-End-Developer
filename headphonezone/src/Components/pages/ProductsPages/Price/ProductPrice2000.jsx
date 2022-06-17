@@ -12,7 +12,7 @@ export const ProductPrice2000 = () => {
      
       axios({
         method: "get",
-        url: "http://localhost:8081/AllPorducts",
+        url: "https://headphone-all-products-api.herokuapp.com/AllPorducts",
         params: {
           price_gte:2000,
           price_lte:3000

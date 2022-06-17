@@ -30,7 +30,7 @@ export const HiRelgetData=(payload)=>
         dispatch(getDataRequest())
 
        return axios({
-            url: "http://localhost:8080/HiRelPlayer",
+            url: "https://headphone-zone-api.herokuapp.com/HiRelPlayer",
             method: "get",
             params:
             {
@@ -47,23 +47,3 @@ export const HiRelgetData=(payload)=>
             });
     }
 }
-export const singleEmployee = async (dispatch, id) => {
-  let name=localStorage.getItem('name');
-
-    dispatch({
-      type: SINGLE_GET_PRODUCT_REQUEST,
-    });
-    try {
-      let res = await axios.get(`http://localhost:8080/${name}/${id}`);
-      let data = await res.data;
-      console.log(data);
-      dispatch({
-        type: SINGLE_GET_PRODUCT_SUCCESS,
-        payload: data,
-      });
-    } catch (error) {
-      dispatch({
-        type: SINGLE_GET_PRODUCT_FALIURE,
-      });
-    }
-  };

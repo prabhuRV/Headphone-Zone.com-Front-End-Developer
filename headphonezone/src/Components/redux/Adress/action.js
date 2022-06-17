@@ -7,7 +7,7 @@ console.log(value)
      type: ADD_ADDRESS_REQUEST,
    });
    return axios({
-     url: "http://localhost:8080/Address",
+     url: "https://headphone-zone-api.herokuapp.com/Address",
      method: "post",
      data: {
       

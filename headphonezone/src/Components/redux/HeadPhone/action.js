@@ -30,7 +30,7 @@ export const getData=(payload)=>
         dispatch(getDataRequest())
 
        return axios({
-            url: "http://localhost:8080/headPhone",
+            url: "https://headphone-zone-api.herokuapp.com/headPhone",
             method: "get",
             params:
             {

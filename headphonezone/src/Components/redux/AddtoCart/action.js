@@ -7,7 +7,7 @@ export const addtocart = async ({ SingleProduct, dispatch}) => {
          type: ADD_TOCART_REQUEST,
        });
        return axios({
-         url: "http://localhost:8080/addtocart",
+         url: "https://headphone-zone-api.herokuapp.com/addtocart",
          method: "post",
          data: {
           image:SingleProduct.image,
@@ -35,7 +35,7 @@ export const addtocart = async ({ SingleProduct, dispatch}) => {
           type: GET_CART_REQUEST
         });
         try {
-          let res = await axios.get("http://localhost:8080/addtocart");
+          let res = await axios.get("https://headphone-zone-api.herokuapp.com/addtocart");
           let data = await res.data;
           dispatch({
             type: GET_CART_SUCCESS,
@@ -49,7 +49,7 @@ export const addtocart = async ({ SingleProduct, dispatch}) => {
       };
       export const deleteitem = async (dispatch, id) => {
         console.log(id);
-        let res = await axios.delete(`http://localhost:8080/addtocart/${id}`);
+        let res = await axios.delete(`https://headphone-zone-api.herokuapp.com/addtocart/${id}`);
       
         dispatch({
           type: DELETE_FROM_CART,

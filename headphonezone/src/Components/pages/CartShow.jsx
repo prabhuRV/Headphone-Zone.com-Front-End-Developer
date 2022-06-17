@@ -15,7 +15,7 @@ export const CartShow = (props) => {
  const handdleUpdata=async ()=>
  {
    
-    await axios.patch(`http://localhost:8080/addtocart/${id}`,
+    await axios.patch(`https://headphone-zone-api.herokuapp.com/addtocart/${id}`,
     {
         quantity: count,
         totalPrice:count*price
