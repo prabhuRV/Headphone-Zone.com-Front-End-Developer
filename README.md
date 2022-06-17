@@ -31,7 +31,7 @@ For storing user data we also used LocalStorage.
 <img src="https://i.ibb.co/XtNkbPn/Screenshot-2.png" alt="3"/>
 * Product:
 <br/>
-<img src="https://i.ibb.co/Gd8f0ZG/Screenshot-3.png" alt="2" />
+<img src="https://i.ibb.co/Gd8f0ZG/Screenshot-3.pnng" alt="23" />
 * Single Veiw Product:
 <br/>
 <img src="https://i.ibb.co/TP9dG4L/Screenshot-4.png" alt="4" />
