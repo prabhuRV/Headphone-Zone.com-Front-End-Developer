@@ -26,9 +26,9 @@ If you are any of the above and would like to channel all that passion into a ca
 For storing user data we also used LocalStorage.
 
 # Images 🌟
-* Login:
+* Home:
 <br/>
-<img src="https://ibb.co/DQsgtFB" alt="3"/>
+<img src="https://ibb.co/CBrc7KB" alt="3"/>
 * Home:
 <br/>
 <img src="https://ibb.co/XWKfbn6" alt="2" />
