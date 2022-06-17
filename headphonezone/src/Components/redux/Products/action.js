@@ -54,7 +54,7 @@ export const singleEmployee = async (dispatch, id) => {
       type: SINGLE_GET_PRODUCT_REQUEST,
     });
     try {
-      let res = await axios.get(`http://localhost:8080/${name}/${id}`);
+      let res = await axios.get(`https://headphone-zone-api.herokuapp.com/${name}/${id}`);
       let data = await res.data;
       console.log(data);
       dispatch({
