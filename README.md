@@ -28,19 +28,19 @@ For storing user data we also used LocalStorage.
 # Images 🌟
 * Home:
 <br/>
-<img src="https://ibb.co/CBrc7KB" alt="3"/>
-* Home:
-<br/>
-<img src="https://ibb.co/XWKfbn6" alt="2" />
+<img src="https://i.ibb.co/XtNkbPn/Screenshot-2.png" alt="3"/>
 * Product:
 <br/>
-<img src="https://ibb.co/j3nsYyR" alt="4" />
+<img src="https://i.ibb.co/Gd8f0ZG/Screenshot-3.png" alt="2" />
+* Single Veiw Product:
+<br/>
+<img src="https://i.ibb.co/TP9dG4L/Screenshot-4.png" alt="4" />
 * Cart:
 <br/>
-<img src="https://ibb.co/T16Lc9q" alt="5" />
-* offers:
+<img src="https://i.ibb.co/42zdWhg/Screenshot-5.png" alt="5" />
+* Check Out
 <br/>
-<img src="https://ibb.co/CBrc7KB" alt="6" />
+<img src="https://i.ibb.co/BL1pZ2L/Screenshot-6.png" alt="6" />
 
 # End Notes  📑
 In this project we have tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of this construct week has given us experiences and we have learned lots of things by applying to the real website and it gave us a lot of confidence. Most of the features are added and functionality of the website is achieved.
