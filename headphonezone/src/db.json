@@ -3210,7 +3210,7 @@
       "line_level_total_discount": 0
     }
   ],
-  "portableAmp": [
+  "poratbleAmp": [
     {
       "Product_url": "poratbleAmp",
       "id": 15574105358399,
@@ -5020,17 +5020,6 @@
       "Product_url": "earphones",
       "totalPrice": 79996,
       "id": 2
-    },
-    {
-      "image": "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Sundara-1160-1160-1.jpg?v=1592332660",
-      "price": 26999,
-      "ratings": 4.6,
-      "userid": 7529973317695,
-      "name": "HiFiMAN - Sundara (2021)",
-      "quantity": 1,
-      "Product_url": "headphone",
-      "totalPrice": 26999,
-      "id": 3
     }
   ],
   "Address": [

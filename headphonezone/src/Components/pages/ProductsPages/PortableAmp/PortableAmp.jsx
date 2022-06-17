@@ -35,15 +35,15 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import ".././Styles.scss";
+import { PortablegetData } from "../../../redux/PoratableAmp/action";
 
-export const EarPhonePage = () => {
-  const products = useSelector((state) => state.products.products);
+
+export const PortableAmp = () => {
+  const Protableproducts = useSelector((state) => state.Protableproducts.Protableproducts);
   const [searchParams] = useSearchParams();
   const [page, setPage] = useState(1);
-  const [locationPage,setLocPage]=useState("")
-  useEffect(() => {
 
-  },[locationPage])
+  
 
   const dispatch = useDispatch();
   useEffect(() => {
@@ -53,13 +53,13 @@ export const EarPhonePage = () => {
       _limit: 6,
     };
     console.log(params);
-    dispatch(getData(params));
+    dispatch(PortablegetData(params));
   }, [dispatch, searchParams, page]);
 
   return (
     <Box>
       <Box pos={"relative"}>
-        <Image src="https://cdn.shopify.com/s/files/1/0153/8863/collections/KZ_Banner_1350x.jpg?v=1649762539" />
+        <Image src="https://cdn.shopify.com/s/files/1/0153/8863/collections/PEE51_1350x.jpg?v=1649836804"/>
       </Box>
       <Box
         pos={"absolute"}
@@ -69,7 +69,9 @@ export const EarPhonePage = () => {
         textAlign="center"
       >
         <Heading color={"white"} size={"3xl"}>
-          BEGINNER AUDIOPHILE IEMS
+        BEGINNER
+PORTABLE AMPS +
+DACS
         </Heading>
       </Box>
       <Box p="3">
@@ -100,7 +102,7 @@ export const EarPhonePage = () => {
           </Box>
           <Box>
             <Grid templateColumns="repeat(3, 1fr)" >
-              {products?.map((item) => {
+              {Protableproducts?.map((item) => {
                 return <Card key={item.id} {...item} />;
               })}
             </Grid>

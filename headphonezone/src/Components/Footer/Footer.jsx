@@ -64,7 +64,7 @@ Learn more</Text>
         </SimpleGrid>
         <Box>
   <Box display={"flex"}  width={150}>
-    <Text width={"300px"} border="solid">We accept</Text>
+    <Text mt="15px" width={"300px"} fontSize="13px" >We accept</Text>
     <Box  display={"flex"} spacing="4">
 
     {

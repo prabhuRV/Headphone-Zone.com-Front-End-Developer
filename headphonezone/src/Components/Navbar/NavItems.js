@@ -12,7 +12,7 @@ export const NAV_ITEMS = [
       },
       {
         lebel: "Protable Amp/DACs",
-        href: "/ProtableAmp",
+        href: "/poratbleAmp",
       },
       {
         lebel: "Desktop Amp/DACs",
@@ -20,7 +20,7 @@ export const NAV_ITEMS = [
       },
       {
         lebel: "Hi Res-Players",
-        href: "/HiRes",
+        href: "/HiRelPlayer",
       },
     ],
   },

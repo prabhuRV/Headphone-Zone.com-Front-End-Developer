@@ -14,7 +14,7 @@ export const Home = () => {
      <Box>
      <Sliders />
      <HeadphoneIcons />
-     <ProductsSliders />
+
      <HeadfoneFinder />
      <OuerLine />
      </Box>
